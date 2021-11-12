@@ -6150,12 +6150,12 @@ body {
   font-weight: 500;
 }
 .headerpage .s_inscrire input {
-  height: 25px;
+  height: 2vw;
   border: none;
   border-radius: 5px;
 }
 .headerpage .s_inscrire button {
-  height: 25px;
+  height: 2vw;
   border: none;
   border-radius: 5px;
   background-color: #00e173;
@@ -6236,6 +6236,36 @@ nav li:hover {
 }
 .allpagebody .para2 {
   margin: 3% 0;
+}
+
+footer {
+  background-color: #363636;
+  margin-top: 5%;
+  height: 68vh;
+  color: #fff;
+}
+footer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+  height: 10vw;
+  border-bottom: solid #3c3c3c 0.5px;
+}
+footer section .divnetwork {
+  margin: 3%;
+}
+footer .imagebottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+footer .copyright {
+  color: #fff;
+  opacity: 50%;
+  text-align: center;
+  font-size: 0.7vw;
 }
 
 /*# sourceMappingURL=app.css.map */
