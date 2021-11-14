@@ -1,11 +1,19 @@
 .allpagebody
     margin: 5% 15%
     color: $fcolor
+    @media screen and (min-width: 768px) and ( max-width: 1023px )
+        margin: 5% 5%
+    @media screen and (min-width: 375px) and ( max-width: 767px )
+        margin: 5% 2%
     h1
         text-align: center
         font-size: 3vw
         font-weight: 400
         margin-bottom: 5%
+        @media screen and (min-width: 768px) and ( max-width: 1023px )
+            font-size: 4vw
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            font-size: 7vw
     hr
         background-color: #9b009d
         width: 5%
@@ -15,6 +23,11 @@
         font-size: 0.84vw
         text-align: justify
         font-weight: 500
+        @media screen and (min-width: 768px) and ( max-width: 1023px )
+            font-size: 1.1vw
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            font-size: 2.5vw
+            text-align: center
     ul
         margin-top: 5%
         font-size: 0.84vw
@@ -23,9 +36,21 @@
         list-style-type: none
         text-align: justify
         margin-bottom: 5%
+        @media screen and (min-width: 1024px) and ( max-width: 1439px )
+            width: 96%
+        @media screen and (min-width: 768px) and ( max-width: 1023px )
+            font-size: 1.1vw
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            width: 90%
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            font-size: 2.3vw
+            margin-top: 10%
+            margin-left: -5%
     li
         margin: 2%
         margin-left: -2%
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            margin: 8% 0
     li::before
         content: "•"
         color: purple
@@ -33,9 +58,17 @@
         font-size: 1.3vw
         margin: 0.5vw
         margin-left: -1vw
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            font-size: 2.5vw
     h2
         font-size: 2.3vw
         font-weight: 500
+        @media screen and (min-width: 768px) and ( max-width: 1023px )
+            font-size: 3vw
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            font-size: 4.5vw
     .para2
         margin: 3% 0
+        @media screen and (min-width: 375px) and ( max-width: 767px )
+            margin: 8% 0
     

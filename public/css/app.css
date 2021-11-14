@@ -6335,11 +6335,35 @@ nav li:hover {
   color: #363636;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .allpagebody {
+    margin: 5% 5%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody {
+    margin: 5% 2%;
+  }
+}
+
 .allpagebody h1 {
   text-align: center;
   font-size: 3vw;
   font-weight: 400;
   margin-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .allpagebody h1 {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody h1 {
+    font-size: 7vw;
+  }
 }
 
 .allpagebody hr {
@@ -6355,6 +6379,19 @@ nav li:hover {
   font-weight: 500;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .allpagebody p {
+    font-size: 1.1vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody p {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+}
+
 .allpagebody ul {
   margin-top: 5%;
   font-size: 0.84vw;
@@ -6365,9 +6402,41 @@ nav li:hover {
   margin-bottom: 5%;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .allpagebody ul {
+    width: 96%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .allpagebody ul {
+    font-size: 1.1vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody ul {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody ul {
+    font-size: 2.3vw;
+    margin-top: 10%;
+    margin-left: -5%;
+  }
+}
+
 .allpagebody li {
   margin: 2%;
   margin-left: -2%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody li {
+    margin: 8% 0;
+  }
 }
 
 .allpagebody li::before {
@@ -6379,13 +6448,37 @@ nav li:hover {
   margin-left: -1vw;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody li::before {
+    font-size: 2.5vw;
+  }
+}
+
 .allpagebody h2 {
   font-size: 2.3vw;
   font-weight: 500;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .allpagebody h2 {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody h2 {
+    font-size: 4.5vw;
+  }
+}
+
 .allpagebody .para2 {
   margin: 3% 0;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .allpagebody .para2 {
+    margin: 8% 0;
+  }
 }
 
 footer {
