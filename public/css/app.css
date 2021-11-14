@@ -6161,8 +6161,20 @@ body {
           align-items: center;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .headerpage {
+    height: 5vw;
+  }
+}
+
 .headerpage .imagemany {
   width: 5%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .headerpage .imagemany {
+    display: none;
+  }
 }
 
 .headerpage .imagemany img {
@@ -6192,19 +6204,56 @@ body {
   font-weight: 500;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .headerpage .s_inscrire span {
+    font-size: 2vw;
+  }
+}
+
 .headerpage .s_inscrire input {
   height: 2vw;
   border: none;
   border-radius: 5px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .headerpage .s_inscrire input {
+    height: 1.7vw;
+    border-radius: 3px;
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .headerpage .s_inscrire input {
+    width: 15%;
+    height: 3.5vw;
+    font-size: 2.5vw;
+  }
+}
+
 .headerpage .s_inscrire button {
-  height: 2vw;
+  height: 2.1vw;
   border: none;
   border-radius: 5px;
   background-color: #00e173;
   margin-left: 5px;
   color: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .headerpage .s_inscrire button {
+    height: 1.8vw;
+    font-size: 1.2vw;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .headerpage .s_inscrire button {
+    height: 4vw;
+    font-size: 2.3vw;
+  }
 }
 
 nav {
@@ -6220,6 +6269,19 @@ nav img {
   margin-left: 20%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  nav img {
+    width: 30%;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  nav img {
+    display: none;
+  }
+}
+
 nav ul {
   list-style-type: none;
   display: -webkit-box;
@@ -6228,10 +6290,36 @@ nav ul {
   width: 90%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  nav ul {
+    margin-left: -15%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  nav ul {
+    margin-left: -7%;
+    width: 100%;
+  }
+}
+
 nav li {
   margin: 2%;
   font-size: 0.7vw;
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  nav li {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  nav li {
+    font-size: 1.3vw;
+    margin: auto;
+  }
 }
 
 nav .testcow {
@@ -6240,12 +6328,6 @@ nav .testcow {
 
 nav li:hover {
   text-decoration: underline;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  nav ul {
-    margin-left: -5%;
-  }
 }
 
 .allpagebody {
