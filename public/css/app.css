@@ -6488,6 +6488,18 @@ footer {
   color: #fff;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  footer {
+    height: 28vw;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    height: 32vw;
+  }
+}
+
 footer section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6501,6 +6513,13 @@ footer section {
   font-size: 1vw;
   height: 10vw;
   border-bottom: solid #3c3c3c 0.5px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  footer section {
+    font-size: 3vw;
+    height: 15vw;
+  }
 }
 
 footer section .divnetwork {
@@ -6518,10 +6537,29 @@ footer .imagebottom {
   margin-bottom: 3vw;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  footer .imagebottom {
+    display: none;
+  }
+}
+
 footer .copyright {
   color: #fff;
   opacity: 50%;
   text-align: center;
   font-size: 0.7vw;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer .copyright {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  footer .copyright {
+    font-size: 2vw;
+    margin-top: 5%;
+  }
 }
 /*# sourceMappingURL=app.css.map */
